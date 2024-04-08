@@ -41,3 +41,4 @@ new_restaurant = pd.DataFrame({
 # Predict the monthly revenue for the new restaurant
 new_revenue = model.predict(new_restaurant)
 print(f"Predicted Monthly Revenue for New Restaurant: ${new_revenue[0]:.2f}")
+print ("go bucks")
